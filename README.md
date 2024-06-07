@@ -1,6 +1,6 @@
 機能のサンプル
 
-## Svelte ベースのインストール
+## Svelte base install
 
 ```
 npm create svelte@latest app
@@ -10,7 +10,7 @@ npm install
 npm run dev
 ```
 
-### Tailwindcss の適用
+### Tailwindcss apply
 
 ```
 npm install -D tailwindcss postcss autoprefixer
@@ -51,4 +51,32 @@ svelte-lib\app\src\lib\theme\app.css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
+
+Google font
+
+```
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="keywords" content="svelte, tailwindcss" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
 ```
