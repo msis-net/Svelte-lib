@@ -1,0 +1,13 @@
+services:
+  hook:
+    build:
+      context: .
+    tty: true
+    volumes:
+      - ./app:/app/
+    #environment:
+    #  - WATCHPACK_POLLING=true
+    #command: /bin/sh -c 'npm run dev'
+    #command: /bin/sh -c 'npm start'
+    ports:
+      - "5678:5678"
