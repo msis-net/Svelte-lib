@@ -53,7 +53,7 @@ svelte-lib\app\src\lib\theme\app.css
 @tailwind utilities;
 ```
 
-Google font
+### Google font
 
 ```
 <!doctype html>
