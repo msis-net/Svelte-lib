@@ -1,0 +1,67 @@
+.card {
+  border: solid 1px #666;
+  border-radius: 0.2rem;
+}
+.btn {
+  cursor: pointer;
+}
+.card div {
+  transition: all 0.5s;
+}
+
+.card .card-header {
+  display: flex;
+  padding: 4px;
+  width: 100%;
+  border-bottom: solid 1px #666;
+}
+
+.card .card-header .card-title {
+  flex: 1 1 0%;
+  user-select: none;
+}
+
+.card .card-body {
+  padding: 4px;
+  font-size: 0.8rem;
+}
+input[type="checkbox"].on-off {
+  display: none;
+}
+
+/*UP DOWN*/
+input[type="checkbox"].on-off ~ .card-body {
+  height: 120px;
+}
+
+input[type="checkbox"].on-off:checked ~ .card-body {
+  height: 0px;
+  overflow: hidden;
+}
+
+input[type="checkbox"].on-off:checked ~ .card-header {
+  border-bottom: none;
+}
+
+input[type="checkbox"].on-off ~ .card-header label span.remove {
+  display: block;
+}
+input[type="checkbox"].on-off ~ .card-header label span.add {
+  display: none;
+}
+
+input[type="checkbox"].on-off:checked ~ .card-header label span.remove {
+  display: none;
+}
+input[type="checkbox"].on-off:checked ~ .card-header label span.add {
+  display: block;
+}
+
+/*CLOSE*/
+input[type="checkbox"].close {
+  display: none;
+}
+
+input[type="checkbox"].close:checked + div {
+  display: none;
+}

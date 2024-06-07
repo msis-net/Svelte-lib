@@ -1,0 +1,23 @@
+{
+	"header": {
+		"welcome": "ようこそ!",
+		"title": "Web アプリ",
+		"settings": "設定",
+		"detail": "詳細"
+	},
+	"navigate": {
+		"select-00": {
+			"value": "none",
+			"label": "CodeSystemを選択してください。"
+		},
+		"Result": "結果",
+		"SearchWord": "検索文字（複数指定可）",
+		"BeResults": "件の結果が見つかりました。",
+		"NoResults": "見つかりませんでした。",
+		"Taxonomy": "分類",
+		"Search": "検索",
+		"Bookmarks": "ブックマーク",
+		"History": "履歴",
+		"Language": "言語"
+	}
+}

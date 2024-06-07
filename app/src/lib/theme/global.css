@@ -1,0 +1,27 @@
+@charset "UTF-8";
+:root {
+	--nav-height: 68px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-height {
+	height: var(--nav-height);
+}
+
+/*横幅全体のNavバーを設置した場合はその分の高さ調整が必要になる*/
+.content-wrapp {
+	height: calc(100% - var(--nav-height));
+}
+
+/*Googleiconの縦位置の調整（デフォルトでは少しずれる）*/
+.material-symbols-outlined {
+	display: inline-flex;
+	vertical-align: middle;
+}

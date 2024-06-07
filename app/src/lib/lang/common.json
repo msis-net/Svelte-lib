@@ -1,0 +1,22 @@
+{
+	"header": {
+		"welcome": "Welcome!",
+		"title": "Web Terminorogy Navigater",
+		"settings": "Settings"
+	},
+	"navigate": {
+		"select-00": {
+			"value": "none",
+			"label": "Select a CodeSystem"
+		},
+		"Result": "Result",
+		"SearchWord": "Search Word(Multiple possible)",
+		"BeResults": "results found.",
+		"NoResults": "No results.",
+		"Taxonomy": "Taxonomy",
+		"Search": "Search",
+		"Bookmarks": "Bookmarks",
+		"History": "History",
+		"Language": "Lang"
+	}
+}
