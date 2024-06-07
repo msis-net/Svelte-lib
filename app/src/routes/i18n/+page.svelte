@@ -29,5 +29,6 @@
 	<div>{$t('common.header.welcome')}</div>
 </div>
 <div>
+	<span class="material-symbols-outlined"> home </span>
 	<div>{$t('common.header.detail')}</div>
 </div>
