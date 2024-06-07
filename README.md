@@ -1,6 +1,9 @@
-機能のサンプル
+Svelte 各種機能ライブラリ
 
-## Svelte base install
+## Index
+
+1. [本パッケージ構築方法](./app/README.mdREADME.md)
+2. [ローカライズ]()
 
 ```
 npm create svelte@latest app
@@ -54,6 +57,8 @@ svelte-lib\app\src\lib\theme\app.css
 ```
 
 ### Google font
+
+svelte-lib\app\src\app.html
 
 ```
 <!doctype html>

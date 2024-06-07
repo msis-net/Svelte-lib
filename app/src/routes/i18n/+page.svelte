@@ -2,7 +2,6 @@
 	import { t, locale, locales } from '$lib/lang/i18n';
 
 	const onChange = ({ currentTarget }: any) => {
-		//language.set($language);
 		const { value } = currentTarget;
 		document.cookie = `lang=${value} ;`;
 	};
@@ -27,8 +26,4 @@
 		</select>
 	</div>
 	<div>{$t('common.header.welcome')}</div>
-</div>
-<div>
-	<span class="material-symbols-outlined"> home </span>
-	<div>{$t('common.header.detail')}</div>
 </div>
