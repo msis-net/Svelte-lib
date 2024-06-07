@@ -10,7 +10,7 @@ npm install
 npm run dev
 ```
 
-### Tailwindcss apply
+### Tailwindcss
 
 ```
 npm install -D tailwindcss postcss autoprefixer
